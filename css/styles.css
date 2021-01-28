@@ -27,36 +27,37 @@ em {
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  text-align: center;
 }
 
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 #features {
-  text-align: center;
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 #press {
-  text-align: center;
   background-color: #ef8172;
   padding-bottom: 3%;
 }
 #pricing {
-  text-align: center;
   padding: 100px;
 }
 #cta {
-  text-align: center;
   background-color: #ff4c68;
   color: #fff;
+  padding: 7% 23%;
+}
+#footer {
+  background-color: #fff;
   padding: 7% 23%;
 }
 
@@ -134,6 +135,11 @@ body {
 /* Pricing */
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Footer */
+.footer-icon {
+  margin: auto 10px 20px;
 }
 
 /* Media Query */
